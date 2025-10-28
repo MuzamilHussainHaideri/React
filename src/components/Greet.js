@@ -1,5 +1,5 @@
-export const Greet = () => {
-    return <h1>Hello Muzamil</h1>;
+export const Greet = (props) => {
+    return <h1>Hello {props.name} you are {props.age} years old</h1>;
 }
 
 // export default Greet;
