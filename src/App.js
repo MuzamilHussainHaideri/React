@@ -3,6 +3,7 @@ import { Greet } from './components/Greet';
 import { Counter } from './components/Counter';
 import { ClickHandler } from './components/ClickHandler';
 import { ParentComponent } from './components/ParentComponent';
+import { UserGreeting } from './components/UserGreeting';
 
 function App() {
   return (
@@ -20,6 +21,9 @@ function App() {
       </div>
       <div>
         <ParentComponent />
+      </div>
+      <div>
+        <UserGreeting />
       </div>
     </div>
   );
