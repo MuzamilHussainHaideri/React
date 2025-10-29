@@ -1,4 +1,5 @@
 import './App.css';
+import styles from './Button.module.css';
 import { Greet } from './components/Greet';
 import { Counter } from './components/Counter';
 import { ClickHandler } from './components/ClickHandler';
@@ -36,6 +37,9 @@ function App() {
       </div>
       <div>
         <Inline />
+      </div>
+      <div>
+        <button className={styles.btn}>Click</button>
       </div>
     </div>
   );
