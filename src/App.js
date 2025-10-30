@@ -8,6 +8,7 @@ import { UserGreeting } from './components/UserGreeting';
 import { NameList } from './components/NameList';
 import { Stylesheet } from './components/Stylesheet';
 import { Inline } from './components/Inline';
+import { Form } from './components/Form';
 
 function App() {
   return (
@@ -41,6 +42,7 @@ function App() {
       <div>
         <button className={styles.btn}>Click</button>
       </div>
+      <div> <Form /> </div>
     </div>
   );
 }
